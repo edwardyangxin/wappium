@@ -1,0 +1,211 @@
+{
+  "name": "appium",
+  "description": "Automation for Apps.",
+  "tags": [
+    "automation",
+    "javascript",
+    "selenium",
+    "webdriver",
+    "ios",
+    "android",
+    "firefoxos",
+    "testing"
+  ],
+  "version": "1.5.3",
+  "author": {
+    "name": "https://github.com/appium"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appium/appium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appium/appium/issues"
+  },
+  "engines": {
+    "node": ">=0.12",
+    "iojs": ">=1.0.0"
+  },
+  "main": "./build/lib/main.js",
+  "bin": {
+    "appium": "./build/lib/main.js",
+    "authorize-ios": "./node_modules/.bin/authorize-ios"
+  },
+  "directories": {
+    "lib": "./lib",
+    "doc": "./docs"
+  },
+  "dependencies": {
+    "appium-android-driver": "^1.10.6",
+    "appium-base-driver": "^2.0.3",
+    "appium-fake-driver": "^0.1.10",
+    "appium-ios-driver": "^1.12.2",
+    "appium-logger": "^2.1.0",
+    "appium-selendroid-driver": "^1.3.4",
+    "appium-support": "^2.3.0",
+    "argparse": "^1.0.7",
+    "asyncbox": "^2.3.1",
+    "authorize-ios": "^1.0.4",
+    "babel-runtime": "=5.8.24",
+    "bluebird": "^2.10.2",
+    "continuation-local-storage": "^3.1.7",
+    "date-utils": "^1.2.21",
+    "lodash": "^4.13.1",
+    "npmlog": "^2.0.4",
+    "request-promise": "^1.0.2",
+    "source-map-support": "^0.4.0",
+    "teen_process": "^1.6.0",
+    "winston": "^2.2.0",
+    "fsevents": "^1.0.12"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp once",
+    "watch": "gulp"
+  },
+  "devDependencies": {
+    "appium-gulp-plugins": "^1.4.5",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "wd": "~0.4.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^1.0.12"
+  },
+  "contributors": [
+    {
+      "name": "Authors ordered by first contribution"
+    },
+    {
+      "name": "Dan Cuellar",
+      "email": "dancuellar@me.com"
+    },
+    {
+      "name": "E. James Infusino",
+      "email": "jinfusino@gmail.com"
+    },
+    {
+      "name": "Jason Huggins",
+      "email": "hugs@saucelabs.com"
+    },
+    {
+      "name": "Jason Carr",
+      "email": "jcarr@saucelabs.com"
+    },
+    {
+      "name": "Jayme Deffenbaugh",
+      "email": "jdeffenbaugh@me.com"
+    },
+    {
+      "name": "Roman Salvador",
+      "email": "roman.salvador@gmail.com"
+    },
+    {
+      "name": "Luke Inman-Semerau",
+      "email": "luke.semerau@gmail.com"
+    },
+    {
+      "name": "Pradeep Bishnoi",
+      "email": "pradeepbishnoi@gmail.com"
+    },
+    {
+      "name": "Charles Nowacek",
+      "email": "charlie.nowacek@gmail.com"
+    },
+    {
+      "name": "Jayakumar Chinnappan",
+      "email": "jayakumareee21@gmail.com"
+    },
+    {
+      "name": "Robin Keller",
+      "email": "robinthekeller@gmail.com"
+    },
+    {
+      "name": "Adam Christian",
+      "email": "adam.christian@gmail.com"
+    },
+    {
+      "name": "Jonathan Lipps",
+      "email": "jlipps@gmail.com"
+    },
+    {
+      "name": "Sebastian Tiedtke",
+      "email": "sebastiantiedtke@gmail.com"
+    },
+    {
+      "name": "Christian Bromann",
+      "email": "mail@christian-bromann.com"
+    },
+    {
+      "name": "Jeremy Avnet"
+    },
+    {
+      "name": "Bernard Kobos",
+      "email": "bkobos@extensa.pl"
+    },
+    {
+      "name": "Santiago Suarez Ordoñez",
+      "email": "santiycr@gmail.com"
+    },
+    {
+      "name": "Joe Mathes"
+    }
+  ],
+  "gitHead": "27504d1926d1f5108b99103e7d983a93914879e5",
+  "homepage": "https://github.com/appium/appium#readme",
+  "_id": "appium@1.5.3",
+  "_shasum": "750a6161e7c1df19c7e4e3fe5d352f3897dd2a56",
+  "_from": "appium@*",
+  "_npmVersion": "2.15.1",
+  "_nodeVersion": "0.12.14",
+  "_npmUser": {
+    "name": "imurchie",
+    "email": "isaac@saucelabs.com"
+  },
+  "dist": {
+    "shasum": "750a6161e7c1df19c7e4e3fe5d352f3897dd2a56",
+    "size": 8789418,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/appium/download/appium-1.5.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "imurchie",
+      "email": "isaac@saucelabs.com"
+    },
+    {
+      "name": "jlipps",
+      "email": "jlipps@gmail.com"
+    },
+    {
+      "name": "jonahss",
+      "email": "jonahss@gmail.com"
+    },
+    {
+      "name": "moizjv",
+      "email": "moizjv@gmail.com"
+    },
+    {
+      "name": "scottdixon",
+      "email": "scottdixon@saucelabs.com"
+    },
+    {
+      "name": "sebv",
+      "email": "seb.vincent@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/appium-1.5.3.tgz_1465328047195_0.6367476030718535"
+  },
+  "publish_time": 1465328047789,
+  "_cnpm_publish_time": 1465328047789,
+  "_resolved": "https://registry.npm.taobao.org/appium/download/appium-1.5.3.tgz",
+  "readme": "ERROR: No README data found!"
+}
